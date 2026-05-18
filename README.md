@@ -44,3 +44,13 @@ The Python client (`socket_client.py`) opens a tkinter GUI, prompts for the serv
 - Start the server first, then open one or more clients.
 - If you want to share an image, use a local file path on the machine running the client.
 - The weather command needs internet access because it fetches live data.
+
+### Weather Unit Dropdown
+
+The Python client includes a **Weather Unit** dropdown in the right sidebar (under **Current Users**).
+
+1. Choose `Celsius (°C)` or `Fahrenheit (°F)` from the dropdown.
+2. Run `/weather CITY` in chat.
+3. The weather response will use the selected unit.
+
+You can still use `/unit C` or `/unit F` if you prefer command-based switching.
